@@ -1,0 +1,28 @@
+=====================================================
+Linux
+=====================================================
+u need to use TAB for auto filling out
+cd somename = goes to the directory somename
+cd - =  goes to the last directory
+cd = back to the main directory or home
+ls -l = show all files in directory
+ll = show all(hiden files too) files in directory
+command1;command2;command3 = it's use 1 after 1
+command1 && command2 = if 1 successful then goes 2
+Ctrl + R search_term = find command search_term, if
+    you press Ctrl + R you'll get next search_term.
+    And go out you need to put Ctrl + C.
+Ctrl + S = block terminal Linux for unblock Ctrl + Q
+Ctrl + Q = unblock terminal Linux
+Ctrl + A = goes to the begining of the sentence
+Ctrl + E = goes to the end of the sentence
+!$ = takes last argument
+!! = use the last command
+Выделите текст, который надо скопировать, после чего
+щёлкните центральной кнопкой мыши (колесом прокрутки)
+для того, чтобы его вставить.
+Используйте комбинации клавиш Ctrl + Shift + C для
+копирования, и Ctrl + Shift + V для вставки.
+Ctrl + Alt + T = New Terminal
+Ctrl + C = quite from programm
+=====================================================

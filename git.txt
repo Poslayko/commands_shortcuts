@@ -1,0 +1,34 @@
+git init - инициализация 
+
+Добавления
+git add . - добавить все
+git commit -m "first commit"
+git remote add origin ________link_________
+git push -u origin master
+git hist - последние пять комитов(это алиас смотреть ниже)
+
+[alias] - их надо добавить в .gitconfig в home директории
+co = checkout
+ci = commit
+st = status
+br = branch
+hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+type = cat-file -t
+dump = cat-file -p
+
+Отмена действий
+git checkout -- . or git checkout -- index.html - возврат к последнему комиту
+git reset . or git reset index.html - если была каманда гит адд, потом заюзать гит чекоут
+git reset --hard HEAD^1 - вернутся на преведущий комит хардмоде, удаляться все изменения в файле
+git reset --soft HEAD^1 - вернутся на преведущий комит, не удаляться изменения и их можно будет 	закомитить
+
+Ветки
+git branch - в какой ветке мы находимся
+git branch -v - в какой ветке и последний коммит
+git branch newname - создает ветку с именем newname
+git checkout newname - перейти в ветку
+git checkout -b newname2 - новая ветка и сразу переход в нее
+git branch -m newname3 - переназвать ветку
+git checkout #hastag - переходит к коммиту
+git br -D new_branch - удаление ветки
+git push --set-upstream origin newname2 - залить ветку

@@ -1,0 +1,19 @@
+=====================================================
+logitech k380 - k480
+=====================================================
+Without fn
+F4 = home page browser
+F5 = switch applications or ALT+TAB
+F6 = context menu or Right Click Buttom of mouse
+F7 = back in browser
+
+With fn
+fn + TAB = screenshot window
+fn + X = cut(Ctrl + X)
+fn + C = copy(Ctrl + C)
+fn + V = pust(Ctrl + V)
+fn + <- = goes to the begining of the sentence(Home)
+fn + -> = goes to the end of the sentence(End)
+fn + ^  = goes one page up(Page Up)
+fn + ^~ = goes one page down(Page Down)
+=====================================================
