@@ -25,4 +25,5 @@ Ctrl + E = goes to the end of the sentence
 копирования, и Ctrl + Shift + V для вставки.
 Ctrl + Alt + T = New Terminal
 Ctrl + C = quite from programm
+Ctrl + Shift + T = new terminal in terminal
 =====================================================

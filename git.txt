@@ -6,6 +6,8 @@ git commit -m "first commit"
 git remote add origin ________link_________
 git push -u origin master
 git hist - последние пять комитов(это алиас смотреть ниже)
+git dist hashcommit - изменения в комите
+git dist hashcommit nameoffile - изменения в комите в конкретном файле
 
 [alias] - их надо добавить в .gitconfig в home директории
 co = checkout
@@ -32,3 +34,4 @@ git branch -m newname3 - переназвать ветку
 git checkout #hastag - переходит к коммиту
 git br -D new_branch - удаление ветки
 git push --set-upstream origin newname2 - залить ветку
+
