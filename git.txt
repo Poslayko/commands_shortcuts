@@ -19,6 +19,7 @@ type = cat-file -t
 dump = cat-file -p
 
 Отмена действий
+git remote set-url origin new.git.url/here
 git checkout -- . or git checkout -- index.html - возврат к последнему комиту
 git reset . or git reset index.html - если была каманда гит адд, потом заюзать гит чекоут
 git reset --hard HEAD^1 - вернутся на преведущий комит хардмоде, удаляться все изменения в файле
