@@ -8,6 +8,7 @@ F6 = context menu or Right Click Buttom of mouse
 F7 = back in browser
 
 With fn
+fn + ESC = block fn
 fn + TAB = screenshot window
 fn + X = cut(Ctrl + X)
 fn + C = copy(Ctrl + C)

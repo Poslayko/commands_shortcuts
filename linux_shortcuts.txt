@@ -7,6 +7,12 @@ cd - =  goes to the last directory
 cd = back to the main directory or home
 ls -l = show all files in directory
 ll = show all(hiden files too) files in directory
+ps -la // Для получения основных сведений о процессах
+	запущенных текущим пользователем.
+ps -ela // Для всех пользователей, все процессы
+ps -a // Базовая информация для текущего пользователя
+top = Запущенные процессы
+ps ax | grep 'ищем процесс по куску имени'й
 command1;command2;command3 = it's use 1 after 1
 command1 && command2 = if 1 successful then goes 2
 Ctrl + R search_term = find command search_term, if
@@ -26,4 +32,5 @@ Ctrl + E = goes to the end of the sentence
 Ctrl + Alt + T = New Terminal
 Ctrl + C = quite from programm
 Ctrl + Shift + T = new terminal in terminal
+Ctrl + Shift + l = очистить консоль
 =====================================================
