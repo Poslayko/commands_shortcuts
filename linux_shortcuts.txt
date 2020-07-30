@@ -7,12 +7,17 @@ cd - =  goes to the last directory
 cd = back to the main directory or home
 ls -l = show all files in directory
 ll = show all(hiden files too) files in directory
+<<<<<<< HEAD
 ps -la // Для получения основных сведений о процессах
 	запущенных текущим пользователем.
 ps -ela // Для всех пользователей, все процессы
 ps -a // Базовая информация для текущего пользователя
 top = Запущенные процессы
 ps ax | grep 'ищем процесс по куску имени'й
+=======
+ps -fu root = shpw all process with root
+lsof -nP -i | grep LISTEN = listen ports
+>>>>>>> 351bada9fe0440171266a322152e779d1ea7972c
 command1;command2;command3 = it's use 1 after 1
 command1 && command2 = if 1 successful then goes 2
 Ctrl + R search_term = find command search_term, if
