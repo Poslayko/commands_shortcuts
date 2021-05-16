@@ -36,7 +36,7 @@ git checkout -b newname2 - новая ветка и сразу переход в
 git branch -m newname3 - переназвать ветку
 git checkout #hastag - переходит к коммиту
 git br -D new_branch - удаление ветки локально
-git push origin --delete - удаляет ветку удаленно
+git push origin --delete <branchName> - удаляет ветку удаленно
 git push origin newbranch - залить ветку на удаленный репозиторий
 git push --set-upstream origin newname2 - залить ветку
 
