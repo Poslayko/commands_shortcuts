@@ -71,4 +71,6 @@ Ctrl + Alt + T = New Terminal
 Ctrl + C = quite from programm
 Ctrl + Shift + T = new terminal in terminal
 Ctrl + Shift + l = очистить консоль
+du -sh показать сколько памяти занято в папке в которой ты находишься
+du -sh folder сколько весит эта папка
 =====================================================
