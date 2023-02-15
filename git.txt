@@ -9,6 +9,7 @@ git hist - последние пять комитов(это алиас смот
 git diff - изменение с последним комитом
 git diff hashcommit - изменения в комите
 git diff hashcommit nameoffile - изменения в комите в конкретном файле
+git diff from_commit to_commit path (git diff 8a277c16 3af28304 priv/db_changelog.sql)
 
 [alias] - их надо добавить в .gitconfig в home директории
 co = checkout
