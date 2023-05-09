@@ -1,6 +1,8 @@
 1. Adding error column red
-2match ErrorMsg /\%81v./
+
+match ErrorMsg /\%81v./
 
 2. Adding column with red color
+
 set colorcolumn=91
 highlight ColorColumn ctermbg=238
