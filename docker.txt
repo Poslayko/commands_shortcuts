@@ -1,0 +1,2 @@
+1. docker container ls
+2. docker container restart CONTAINER_ID
